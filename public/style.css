@@ -1,0 +1,43 @@
+body {
+    background-color:rgb(204, 229, 250);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+main > section {
+    background-color: white;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 3em;
+    box-shadow: 5px 5px 10px black;
+}
+
+h1 {
+    text-align: center;
+    margin: 0.5em;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: black;
+
+}
+
+h2 {
+    margin: 1em;
+    text-align:center;
+    color: black;
+}
+
+h3 {
+    color: black;
+}
+
+label {
+    color: black;
+
+}
