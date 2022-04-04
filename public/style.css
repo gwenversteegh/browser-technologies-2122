@@ -1,5 +1,7 @@
-body {
-    background-color:rgb(204, 229, 250);
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 
 main {
@@ -11,11 +13,19 @@ main {
 }
 
 main > section {
-    background-color: white;
     margin: 1em;
     padding: 2em;
     border-radius: 3em;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px #1EB2E8;
+    background-image: url(img/Artboard\ 2.png);
+    background-size: cover;
+
+
+}
+
+header {
+    background-image: url(img/Artboard\ 2.png);
+    background-size: cover;
 }
 
 h1 {
@@ -24,20 +34,22 @@ h1 {
     font-size: 50px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     color: black;
-
 }
 
 h2 {
     margin: 1em;
     text-align:center;
     color: black;
+    margin: 0.5em;
+
 }
 
 h3 {
     color: black;
+    margin: 0.5em;
+
 }
 
 label {
     color: black;
-
 }
