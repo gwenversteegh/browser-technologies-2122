@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verzonden antwoorden</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h2>Hi <%- data.naam %>, </h2>
+    <p>Bedankt voor het invullen van de enquete!</p>
+
+    <section>
+        <h3>Jouw resultaten</h3>
+
+        <TABLE BORDER="2">
+            <TR> <TH></TH>          <TH>Lesstof</TH>                   <TH>Uitleg</TH>                 <TH>Snappen</TH>                </TR>
+            <TR> <TD>WAFS</TD> <TD><%- data['WAFS-lesstof'] %></TD> <TD><%- data['WAFS-uitleg'] %> </TD> <TD><%- data['WAFS-snap']%></TD> </TR>
+            <TR> <TD>CSS</TD> <TD><%- data['CSS-lesstof'] %></TD> <TD><%- data['CSS-uitleg'] %> </TD> <TD><%- data['CSS-snap']%></TD> </TR>
+            </TABLE>
+    </section>
+
+</body>
+</html>

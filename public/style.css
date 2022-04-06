@@ -12,7 +12,7 @@ main {
     justify-content: center;
 }
 
-main > section {
+main form > section {
     margin: 1em;
     padding: 2em;
     border-radius: 3em;
@@ -52,4 +52,8 @@ h3 {
 
 label {
     color: black;
+}
+
+main form > input {
+    background-color: black;
 }

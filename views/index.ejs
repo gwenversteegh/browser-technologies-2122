@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enquete minor web-development</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <header>
+        <h1>Enquete Minor Web</h1>
+    </header>
+
+    <main>
+        <form method="POST" action="/" >
+      <section>
+        <h3> Voornaam + Achternaam </h3>
+        <input type="text" placeholder="Gwen Versteegh" id="naam" name="naam" required>
+
+        <h3> Studentennummer </h3>
+        <input type="text" placeholder="1234567" id="nummer" name="nummer"required>
+      </section>
+
+    <!-- --------------------------- web app from scratch ----------------------------------------- -->
+    <section>
+        <h2> Web App From Scratch </h2>
+
+        <h3> Naam docent(en) </h3>
+        <input type="text" placeholder="Robbert Spier, ..." id="docentenvak1" name="docentenvak1"required>
+
+        <h3> Periode van het vak </h3>
+        
+        <label>van</label>
+        <input type="date" id="vak1start" name="vak1start"required>
+        <label>t/m</label>
+        <input type="date" id="vak1eind" name="vak1eind"required>
+
+
+        <h3> Hoe moeilijk was de lesstof? </h3>
+        <section>
+            <label>1</label>
+                <input type="radio" id="WAFS-lesstof-1" name="WAFS-lesstof" value="Zeer makkelijk" required>
+                <input type="radio" id="WAFS-lesstof-2" name="WAFS-lesstof" value="Makkelijk" required>
+                <input type="radio" id="WAFS-lesstof-3" name="WAFS-lesstof" value="Normaal" required>
+                <input type="radio" id="WAFS-lesstof-4" name="WAFS-lesstof" value="Best moeilijk" required>
+                <input type="radio" id="WAFS-lesstof-5" name="WAFS-lesstof" value="Heel erg moeilijk" required>
+            <label>5</label>   
+        </section>
+
+        <h3> Hoe goed was de uitleg? </h3>
+            <label>1</label>
+                <input type="radio" id="WAFS-uitleg-1" name="WAFS-uitleg" value="Heel erg slecht" required>
+                <input type="radio" id="WAFS-uitleg-2" name="WAFS-uitleg" value="Slecht" required>
+                <input type="radio" id="WAFS-uitleg-3" name="WAFS-uitleg" value="Normaal" required>
+                <input type="radio" id="WAFS-uitleg-4" name="WAFS-uitleg" value="Best goed" required>
+                <input type="radio" id="WAFS-uitleg-5" name="WAFS-uitleg" value="Heel erg goed" required>
+           <label>5</label>  
+
+        <h3> Hoe goed snap je het? </h3>
+            <label>1</label>
+                <input type="radio" id="WAFS-snap-1" name="WAFS-snap" value="Heel erg slecht" required>
+                <input type="radio" id="WAFS-snap-2" name="WAFS-snap" value="Slecht" required>
+                <input type="radio" id="WAFS-snap-3" name="WAFS-snap" value="Normaal" required>
+                <input type="radio" id="WAFS-snap-4" name="WAFS-snap" value="Best goed" required>
+                <input type="radio" id="WAFS-snap-5" name="WAFS-snap" value="Heel erg goed" required>
+            <label>5</label>  
+    </section>
+  <!-- --------------------------- css to the rescue ----------------------------------------- -->
+  <section>
+    <h2> CSS to the rescue </h2>
+
+    <h2> Web App From Scratch </h2>
+
+    <h3> Naam docent(en) </h3>
+    <input type="text" placeholder="Robbert Spier, ..." id="docentenvak2" name="docentenvak2"required>
+
+    <h3> Periode van het vak </h3>
+    
+    <label>van</label>
+    <input type="date" id="vak2start" name="vak2start"required>
+    <label>t/m</label>
+    <input type="date" id="vak2eind" name="vak2eind"required>
+
+
+    <h3> Hoe moelijk was de lesstof? </h3>
+    <section>
+        <label>1</label>
+            <input type="radio" id="CSS-lesstof-1" name="CSS-lesstof" value="Zeer makkelijk" required>
+            <input type="radio" id="CSS-lesstof-2" name="CSS-lesstof" value="Makkelijk" required>
+            <input type="radio" id="CSS-lesstof-3" name="CSS-lesstof" value="Normaal" required>
+            <input type="radio" id="CSS-lesstof-4" name="CSS-lesstof" value="Best moeilijk" required>
+            <input type="radio" id="CSS-lesstof-5" name="CSS-lesstof" value="Heel erg moeilijk" required>
+            <label>5</label>   
+    </section>
+
+    <h3> Hoe goed was de uitleg? </h3>
+        <label>1</label>
+            <input type="radio" id="CSS-uitleg-1" name="CSS-uitleg" value="Heel erg slecht" required>
+            <input type="radio" id="CSS-uitleg-2" name="CSS-uitleg" value="Slecht" required>
+            <input type="radio" id="CSS-uitleg-3" name="CSS-uitleg" value="Normaal" required>
+            <input type="radio" id="CSS-uitleg-4" name="CSS-uitleg" value="Best goed" required>
+            <input type="radio" id="CSS-uitleg-5" name="CSS-uitleg" value="Heel erg goed" required>
+         <label>5</label>  
+
+    <h3> Hoe goed snap je het? </h3>
+        <label>1</label>
+            <input type="radio" id="CSS-snap-1" name="CSS-snap" value="Heel erg slecht" required>
+            <input type="radio" id="CSS-snap-2" name="CSS-snap" value="Slecht" required>
+            <input type="radio" id="CSS-snap-3" name="CSS-snap" value="Normaal" required>
+            <input type="radio" id="CSSS-snap-4" name="CSS-snap" value="Best goed" required>
+            <input type="radio" id="CSSS-snap-5" name="CSS-snap" value="Heel erg goed" required>
+         <label>5</label>  
+</section>
+
+<input type="submit" value="Verstuur de antwoorden!">
+
+</form>
+
+    </main>
+
+    <footer></footer>
+    
+</body>
+</html>
