@@ -29,7 +29,7 @@ Met de usable laag heb ik ervoor gezorgd dat de accessibility een stuk omhoog gi
 Hier heb ik niet heel veel toegevoegd. Ik heb niet zoveel extra'tjes erin gedaan. Ik wilde een carousel ervan maken, maar hier had ik helaas geen tijd meer voor. Wel heb ik doormiddel van javascript ervoor gezorgd, dat wanneer je de pagina herlaad, hij je naam en studentnummer onthoudt.
 
 ## Accessibility
-Ik heb extra op de accessibility gelet. Dit heb ik gedaan door de inputvelden en radiobuttons een stuk groter te maken, de tekst groot te maken en zoveel mogelijk contrast te gebruiken. Ook heb ik wat onderzoek gedaan naar een screenreader en dit heb ik proberen toe te passen, al was dit wel wat lastiger dan gedacht. Ik heb ervoor gezorgd dat alles goed achter elkaar aanloopt dus h1,h2 etc. Ook heb ik alle inputvelden en radiobuttons een aria label gegeven, zodat het duidelijk is wat je moet invullen, ook voor blinde mensen. 
+Ik heb extra op de accessibility gelet. Dit heb ik gedaan door de inputvelden en radiobuttons een stuk groter te maken, de tekst groot te maken en zoveel mogelijk contrast te gebruiken. Ook heb ik wat onderzoek gedaan naar een screenreader en dit heb ik proberen toe te passen, al was dit wel wat lastiger dan gedacht. Ik heb ervoor gezorgd dat alles goed achter elkaar aanloopt dus h1,h2 etc. Ook heb ik alle inputvelden en radiobuttons een aria label gegeven, zodat het duidelijk is wat je moet invullen, ook voor blinde mensen. Je kunt ook met tab door de hele pagina heen, dus wanneer je geen muis hebt, kun je de vragenlijst alsnog invullen.
 
 <img width="444" alt="Screenshot 2022-04-07 at 14 43 09" src="https://user-images.githubusercontent.com/70900763/162201279-50104296-ad0d-4d93-ae11-54d312421d7a.png">
 
@@ -64,8 +64,11 @@ Door required achter een inputfield te zetten wordt de gebruiker "verplicht" om 
 
 https://caniuse.com 
 
-### Functionaliteiten
+### Functionaliteiten testen
+Als test heb ik CSS en JS uitgezet. De JS zorgt er alleen voor dat je later verder kunt waar je gebleven was. Wanneer je dit uitzet moet je de vragenlijst dus opnieuw invullen wanneer je de pagina refresht. Verder werken alle core functionaliteiten. Wanneer de CSS ook uitgezet wordt werken de core functionaliteiten nog steeds, maar is het wel minder accessible. De teksten zijn dan kleiner en ook de inputvelden zijn vrij klein, waardoor het lastig kan zijn om de vragenlijst in te vullen. Verder werkt alles wel, zoals later je resultaten bekijken.
+
 ### Screenreader test
+Ik heb een kleine test gedaan met een screenreader omdat ik erg benieuwd was hoe het zou klinken. Ik moet eerlijk zeggen, dat daar nog wel veel verbeteringen moeten gebeuren. Het aria-label werkt wel, maar omdat er niet alleen een aria-label staat maar ook nog andere dingen, wordt het een beetje rommelig. Daarbij staat mijn laptop in het engels en heb ik de labels nederlandse tekst gegeven, wat er voor zorgt dat het raar uitgesproken wordt.
 
 ## Oefen opdracht 1 & 2 
 ### Opdracht 1:
