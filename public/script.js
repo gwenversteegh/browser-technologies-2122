@@ -1,8 +1,9 @@
 // input to track
 var naam = document.getElementById("naam");
 var nummer = document.getElementById("nummer");
-if (sessionStorage.getItem("autosave")) {
-    // Restore a content of the input
+
+if (sessionStorage.getItem("autosave")) { 
+// Restore a content of the input
     naam.value = sessionStorage.getItem("autosave");
 }
 

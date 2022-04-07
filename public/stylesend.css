@@ -21,8 +21,6 @@ h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 
-
-
 h3 {
     color: black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
@@ -35,16 +33,14 @@ h3 {
 p {
     font-size: 18px;
     margin: 0.5em 0.5em;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;   
 }
 
 table {
     margin-right: 0.5em;
-     border-radius: 1em;
-     border:none;
-     width: 100%;
-
+    border-radius: 1em;
+    border:none;
+    width: 100%;
 }
 
 main table th {
@@ -53,18 +49,14 @@ main table th {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     border-radius: 0.5em;
     background-color: white;
-
-
 }
 
 main table td {
-    font-size: 17px;
+    font-size: 20px;
     padding: 0.25em;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     border-radius: 0.5em;
     background-color: white;
-
-
 }
 
 fieldset {

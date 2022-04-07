@@ -7,8 +7,6 @@ const app = express()
 const port = 2000
 
 
-
-// Stel ejs in als template engine
 app.set('view engine', 'ejs')
 app.set('views', './views');
 
@@ -29,7 +27,7 @@ function renderPagina (req, res){
 
     res.render('index')
     
-    }
+}
 
     function verzenden (req, res){
         userInput = JSON.stringify(req.body)
