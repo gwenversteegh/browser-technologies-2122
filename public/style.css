@@ -19,8 +19,6 @@ main form > section {
     box-shadow: 5px 5px 10px #1EB2E8;
     background-image: url(img/Artboard\ 2.png);
     background-size: cover;
-
-
 }
 
 header {
@@ -51,8 +49,6 @@ h3 {
     margin: 0.5em 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     font-size: 15px;
-
-
 }
 
 label {
