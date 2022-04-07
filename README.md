@@ -48,10 +48,29 @@ Wanneer je iets niet hebt ingevuld kun je de vragenlijst niet versturen en zal h
 
 ## Test verslag
 ### Onderzochte features
-### Wel en niet ondersteunde features
+#### screenreader 
+Radiobuttons kunnen lastig zijn met een screenreader omdat er geen tekst of iets in staat. Hierdoor kan het onduidelijk zijn waarvoor elke button is. Door een aria-label toe te voegen wordt deze voorgelezen tijdens de screenreader. Dit wordt sinds 2008 ondersteunt door browsers, maar ook zonder dit label, werkt de pagina gewoon.  
+https://www.evinced.com/blog/creating-accessible-styled-radio-groups/ 
+
+#### Gegevens opslaan in sessionStorage 
+De ingevulde gegevens opslaan om later verder te kunnen gaan, heb ik gedaan met sessionStorage. Dit zorgt er dus voor dat wanneer je de pagina refresht, de antwoorden blijven staan. Het is bruikbaar op browsers vanaf 2006. Wanneer dit niet ondersteunt wordt, werkt de pagina wel gewoon.
+https://webscraping.pro/save-input-value-on-page-refresh-using-sessionstorage/
+
+#### Fieldset
+Om de HTML pagina zonder CSS duidelijker te maken heb ik gebruik gemaakt van fieldset. Dit zorgt voor een lijn om elk vak zoals WAFS en CSS. Hierdoor is het duidelijk dat het een nieuw vak is. Dit wordt door elke browser ondersteunt.
+
+#### Required
+Door required achter een inputfield te zetten wordt de gebruiker "verplicht" om hem in te vullen voor ze verder kunnen. Dit wordt op alle browsers ondersteunt.
+
+https://caniuse.com 
+
 ### Functionaliteiten
 ### Screenreader test
-## Oefen opdracht 1 & 2 
 
+## Oefen opdracht 1 & 2 
+### Opdracht 1:
+https://maggness.github.io/BT-Tim/opdracht1-BT-main
+### Opdracht 2: 
+https://maggness.github.io/BT-Tim/opdracht2-BT-main
 
 
